@@ -33,7 +33,7 @@
     android:textSize="20sp"/>
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="이메일 양식"
         android:inputType="textEmailAddress"/>
@@ -47,7 +47,7 @@
         android:textSize="20sp"/>
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="비밀번호 입력"
         android:inputType="textPassword" />
@@ -58,6 +58,13 @@
     android:layout_height="wrap_content"
     android:text="자동 로그인"
     android:checked="true" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
 
 
     <LinearLayout
